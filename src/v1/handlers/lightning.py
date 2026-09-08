@@ -4,7 +4,7 @@ from aiohttp.web import json_response
 from aiohttp import WSMsgType
 from prisma import Prisma
 from prisma.enums import lnurl_auth_status
-from authentication_types.models import LNCallbackSuccessPayload
+from chauff_cmn.models import LNCallbackSuccessPayload
 
 from ..auth import resolve_authenticated_user_id
 from ..services.lightning.login import (

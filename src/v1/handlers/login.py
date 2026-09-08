@@ -1,7 +1,7 @@
 import jwt
 from aiohttp.web_request import Request
 from aiohttp.web import json_response
-from authentication_types.models import User, ExchangeCodePayload, Status
+from chauff_cmn.models import User, ExchangeCodePayload, Status
 from prisma import Prisma
 
 from ..auth import resolve_authenticated_user_id
